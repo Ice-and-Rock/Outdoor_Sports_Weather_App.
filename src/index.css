@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+}
+body {
+    background-image: url('./images/picture MTB.jpeg');
+    background-size: cover; ;
+    background-position: center;
+  }
+  

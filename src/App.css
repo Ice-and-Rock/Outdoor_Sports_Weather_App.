@@ -1,0 +1,21 @@
+
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(143, 183, 201);
+}
+
+.images {
+  width: 200px;
+  height: 200px;
+}
+
+.containerItem {
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+  position: relative; 
+}
