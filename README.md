@@ -4,4 +4,3 @@ https://outdoor-sports-weather-forecast.netlify.app
 
 [<img src="./src/images/Project_Image.png" alt="project_image"/>](https://outdoor-sports-weather-forecast.netlify.app)
 
-This is the big test
