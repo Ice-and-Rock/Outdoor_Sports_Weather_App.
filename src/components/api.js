@@ -31,7 +31,7 @@ function GetWeather(props) {
       {Object.keys(weatherData).length > 0 && 
       // gives back the key pairs of the array being returned
       ( <>
-          <p> This is where the API data will go for now. </p>
+          <p> Tomorrow's weather averages... </p>
           <p>
             Temperature:{" "}
             {weatherData.daily && weatherData.daily.temperature_2m_max[0]}°C
