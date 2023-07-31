@@ -32,12 +32,12 @@ function GetWeather(props) {
       // gives back the key pairs of the array being returned
       ( <>
           <p> Tomorrow's weather averages... </p>
-          <p>
+          <h4>
             Temperature:{" "}
             {weatherData.daily && weatherData.daily.temperature_2m_max[0]}°C
-          </p>
-          <p>Wind Speed km/h: {weatherData.daily.windspeed_10m_max[0]}</p>
-          <p>Rain: {weatherData.daily.rain_sum[0]} mm</p>
+          </h4>
+          <h4>Wind Speed km/h: {weatherData.daily.windspeed_10m_max[0]}</h4>
+          <h4>Rain: {weatherData.daily.rain_sum[0]} mm</h4>
         </>
       )}
     </div>
